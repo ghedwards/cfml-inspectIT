@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration-interface-import-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" schemaVersion="9">
+    <profiles>
+        <profile common="false" active="true" default="false" id="ffbda0ab-1c66-43cb-9772-349cb54733d0" name="ColdFusion" created-on="2017-11-08T11:17:28.109+10:00" updated-on="2017-11-08T11:59:54.195+10:00" revision="8" schemaVersion="9">
+            <sensor-assignment-profile-data>
+                <timer-method-sensor-assignment charting="false" starts-invocation="false" min-invocation-duration="0" sensor-config-class="rocks.inspectit.shared.cs.ci.sensor.method.impl.TimerSensorConfig" method-name="service" parameters="javax.servlet.ServletRequest javax.servlet.ServletResponse" constructor="false" public-mod="true" protected-mod="true" private-mod="true" default-mod="true" class-name="coldfusion.CfmServlet" superclass="true" interface="false"/>
+                <timer-method-sensor-assignment charting="false" starts-invocation="false" min-invocation-duration="0" sensor-config-class="rocks.inspectit.shared.cs.ci.sensor.method.impl.TimerSensorConfig" method-name="runFunction" parameters="coldfusion.runtime.LocalScope java.lang.Object coldfusion.runtime.CFPage coldfusion.runtime.ArgumentCollection" constructor="false" public-mod="true" protected-mod="true" private-mod="true" default-mod="true" class-name="coldfusion.runtime.UDFMethod" superclass="true" interface="false"/>
+            </sensor-assignment-profile-data>
+        </profile>
+    </profiles>
+</configuration-interface-import-data>
